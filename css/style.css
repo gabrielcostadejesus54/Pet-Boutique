@@ -1,0 +1,187 @@
+/* Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontePadrao);
+}
+
+:root{
+    --corPadrao:  #3c184e;
+    --fontePadrao: sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 2%;
+}
+
+h2{
+    text-align: center;
+    color: var(--corPadrao);
+    margin: 50px 0 30px 0;
+    font-size: 30px;
+}
+
+
+/* Fim das configurações gerais */
+
+/* Header */
+header{
+    padding: 100px 0;
+    background-image: url('../img/banner-topo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 60%;
+}
+
+.logo{
+    color: var(--corPadrao);
+}
+
+.logo img{
+    width: 30px;
+}
+
+.logo h1{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.logo p{
+    font-size: 15px;
+}
+
+header .box{
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 0 10px 0  #1f26875e;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: #ffffffc4 ;
+}
+
+header .box p{
+    color: var(--corPadrao);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header .box .btn{
+    padding: 10px 20px;
+    background-color: var(--corPadrao);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* Fim Header */
+
+/* serviços */
+.servicos{
+    color: var(--corPadrao);
+}
+
+.servicos ul{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.servicos ul li{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.servicos .galeria{
+    margin: 30px auto;
+    display: block;
+    max-width: 800px;
+    width: 100%;
+}
+
+.servicos .galeria img{
+    box-shadow: 0 0 10px 0 #0000005c;
+    border-radius: 10px;
+}
+
+/* fim serviços */
+
+
+/* redes-sociais */
+.redes-sociais{
+    background-color: var(--corPadrao);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.redes-sociais p{
+    color: white;
+    font-size: 28px;
+}
+
+.redes-sociais img{
+    width: 40px;
+    margin: 0 10px;
+}
+
+.redes-sociais .socials{
+    margin-top: 40px;
+}
+
+.marcas-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.marcas-wraper img{
+    width: 23%;
+    margin: 0 1%;
+}
+/* redes-sociais */
+
+/* onde estamos */
+.onde-estamos{
+    text-align: center;
+    color: var(--corPadrao);
+}
+
+.onde-estamos p{
+    font-size: 20px;
+}
+
+.onde-estamos iframe{
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* fim onde-estamos */
+
+/* footer */
+footer{
+    background-color: var(--corPadrao);
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    color:white;
+}
+
+footer a {
+    color: white;
+}
+/* fim footer */
+
